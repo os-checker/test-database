@@ -192,7 +192,42 @@
         "dependencies": 0,
         "lib": false,
         "bin": true,
-        "testcases": null,
+        "testcases": {
+          "tests": [
+            {
+              "id": "ws-rap-checks-test-and-example::test1",
+              "kind": "test",
+              "binary_name": "test1",
+              "testcases": [
+                {
+                  "name": "test1",
+                  "status": "failed",
+                  "duration_ms": 145
+                }
+              ],
+              "failed": 1,
+              "duration_ms": 145
+            },
+            {
+              "id": "ws-rap-checks-test-and-example::bin/ws-rap-checks-test-and-example",
+              "kind": "bin",
+              "binary_name": "ws-rap-checks-test-and-example",
+              "testcases": [
+                {
+                  "name": "ex1_test",
+                  "status": "failed",
+                  "duration_ms": 144
+                }
+              ],
+              "failed": 1,
+              "duration_ms": 144
+            }
+          ],
+          "failed": 2,
+          "duration_ms": 289,
+          "pkg_tests_count": 2,
+          "workspace_tests_count": 2
+        },
         "tests": 1,
         "examples": 1,
         "benches": 0,
