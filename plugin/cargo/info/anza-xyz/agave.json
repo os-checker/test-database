@@ -1,0 +1,9 @@
+{
+  "user": "anza-xyz",
+  "repo": "agave",
+  "timestamp": {
+    "start": 1746016401843,
+    "end": 1746016401843
+  },
+  "err": "\n   0: 无法读取 cargo metadata 的结果：\n      `cargo metadata` exited with an error: error: failed to load manifest for dependency `solana-program`\n\n      Caused by:\n        failed to read `/tmp/os-checker-plugin-cargo/anza-xyz/agave/sdk/program/Cargo.toml`\n\n      Caused by:\n        No such file or directory (os error 2)\n   0: \n\nLocation:\n   src/repo/mod.rs:217\n\n  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ SPANTRACE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n   0: os_checker_plugin_cargo::cache::cache with key=\"Api { branch: \\\"master\\\", sha: \\\"36ebd81c4a5b499f517e0e68fcf0d1e7d6aed0e9\\\" }\"\n      at src/cache/mod.rs:60\n   1: os_checker_plugin_cargo::list with user_repo=\"anza-xyz/agave\"\n      at src/main.rs:16\n\nBacktrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.\nRun with RUST_BACKTRACE=full to include source snippets."
+}
