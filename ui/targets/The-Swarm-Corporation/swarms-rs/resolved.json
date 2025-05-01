@@ -1,0 +1,569 @@
+[
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 46720
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 734
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 97213
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 61810
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 92
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 3217
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 269
+  },
+  {
+    "pkg": "binance-swarms-agent",
+    "toolchain": "stable",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 16218
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 538
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 67538
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 30310
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 126
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 91
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 2754
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 264
+  },
+  {
+    "pkg": "binance-tools",
+    "toolchain": "stable",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 3,
+    "ms": 122
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 398
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 687
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 62861
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 3044
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 93
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 2594
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 265
+  },
+  {
+    "pkg": "browser-use",
+    "toolchain": "stable",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 380
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 490
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 55861
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 3000
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 92
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 2499
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 263
+  },
+  {
+    "pkg": "fetch-mcp",
+    "toolchain": "stable",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 374
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 506
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 56231
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 3037
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 91
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 2349
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 261
+  },
+  {
+    "pkg": "knowledge-graph-memory-server",
+    "toolchain": "stable",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 1925
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 247
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 3398
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 94
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 2377
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 262
+  },
+  {
+    "pkg": "swarms-macro",
+    "toolchain": "stable",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 123
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 12519
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 35016
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 522
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 123587
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 20413
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 114
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 93
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 1,
+    "ms": 3007
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 267
+  },
+  {
+    "pkg": "swarms-rs",
+    "toolchain": "stable",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 65,
+    "ms": 380
+  }
+]

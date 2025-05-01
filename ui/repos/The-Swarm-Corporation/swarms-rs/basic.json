@@ -13,11 +13,7 @@
       "count": 5
     },
     {
-      "pkg": "knowledge-graph-memory-server",
-      "count": 2
-    },
-    {
-      "pkg": "fetch-mcp",
+      "pkg": "binance-swarms-agent",
       "count": 2
     },
     {
@@ -25,7 +21,11 @@
       "count": 2
     },
     {
-      "pkg": "binance-swarms-agent",
+      "pkg": "fetch-mcp",
+      "count": 2
+    },
+    {
+      "pkg": "knowledge-graph-memory-server",
       "count": 2
     },
     {
@@ -43,19 +43,15 @@
       "count": 68
     },
     {
-      "checker": "lockbud",
-      "count": 6
-    },
-    {
       "checker": "audit",
       "count": 6
     },
     {
-      "checker": "semver-checks",
-      "count": 1
+      "checker": "lockbud",
+      "count": 6
     },
     {
-      "checker": "outdated",
+      "checker": "cargo",
       "count": 1
     },
     {
@@ -63,15 +59,15 @@
       "count": 1
     },
     {
-      "checker": "cargo",
+      "checker": "outdated",
       "count": 1
     },
     {
-      "checker": "rudra",
-      "count": 0
+      "checker": "semver-checks",
+      "count": 1
     },
     {
-      "checker": "rapx",
+      "checker": "clippy",
       "count": 0
     },
     {
@@ -79,17 +75,21 @@
       "count": 0
     },
     {
-      "checker": "clippy",
+      "checker": "rapx",
+      "count": 0
+    },
+    {
+      "checker": "rudra",
       "count": 0
     }
   ],
   "targets": [
     {
-      "triple": "x86_64-unknown-linux-gnu",
+      "triple": "All-Targets",
       "count": 84
     },
     {
-      "triple": "All-Targets",
+      "triple": "x86_64-unknown-linux-gnu",
       "count": 84
     }
   ],

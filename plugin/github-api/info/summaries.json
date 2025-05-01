@@ -1,192 +1,69 @@
 [
   {
-    "user": "anza-xyz",
-    "repo": "agave",
+    "user": "The-Swarm-Corporation",
+    "repo": "swarms-rs",
     "info": {
-      "name": "agave",
-      "full_name": "anza-xyz/agave",
+      "name": "swarms-rs",
+      "full_name": "The-Swarm-Corporation/swarms-rs",
       "owner": {
-        "login": "anza-xyz",
+        "login": "The-Swarm-Corporation",
         "type": "Organization"
       },
-      "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.",
-      "created_at": "2024-01-30T05:25:31Z",
-      "pushed_at": "2025-04-30T08:42:06Z",
-      "updated_at": "2025-04-30T10:36:44Z",
-      "homepage": "https://www.anza.xyz/",
-      "default_branch": "master",
-      "size": 446972,
-      "stargazers_count": 994,
-      "subscribers_count": 31,
-      "forks_count": 462,
-      "network_count": 4790,
-      "open_issues_count": 603,
-      "fork": true,
+      "description": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework in Rust",
+      "created_at": "2024-08-29T03:05:39Z",
+      "pushed_at": "2025-04-30T06:28:38Z",
+      "updated_at": "2025-04-30T06:30:46Z",
+      "homepage": "https://swarms.ai",
+      "default_branch": "main",
+      "size": 1570,
+      "stargazers_count": 22,
+      "subscribers_count": 3,
+      "forks_count": 6,
+      "network_count": 6,
+      "open_issues_count": 0,
+      "fork": false,
       "archived": false,
       "has_issues": true,
       "has_projects": true,
       "has_downloads": true,
       "has_wiki": true,
       "has_pages": false,
-      "has_discussions": true,
-      "topics": [],
+      "has_discussions": false,
+      "topics": [
+        "agents",
+        "agents-sdk",
+        "agora",
+        "ai",
+        "async",
+        "finance",
+        "llms",
+        "ml",
+        "multi-agent-collaboration",
+        "multi-agent-systems",
+        "multi-process",
+        "multithreading",
+        "python",
+        "rust",
+        "rust-lang",
+        "swarms"
+      ],
       "language": "Rust",
       "license": {
         "spdx_id": "Apache-2.0"
       }
     },
-    "active_days": 456,
-    "contributions": 23905,
+    "active_days": 244,
+    "contributions": 99,
     "contributors": [
       {
-        "login": "mvines",
+        "login": "kyegomez",
         "type": "User",
-        "contributions": 3973
+        "contributions": 56
       },
       {
-        "login": "dependabot[bot]",
-        "type": "Bot",
-        "contributions": 2709
-      },
-      {
-        "login": "jeffwashington",
+        "login": "M4n5ter",
         "type": "User",
-        "contributions": 1873
-      },
-      {
-        "login": "garious",
-        "type": "User",
-        "contributions": 1797
-      },
-      {
-        "login": "brooksprumo",
-        "type": "User",
-        "contributions": 1271
-      },
-      {
-        "login": "jstarry",
-        "type": "User",
-        "contributions": 1176
-      },
-      {
-        "login": "jackcmay",
-        "type": "User",
-        "contributions": 888
-      },
-      {
-        "login": "sakridge",
-        "type": "User",
-        "contributions": 784
-      },
-      {
-        "login": "behzadnouri",
-        "type": "User",
-        "contributions": 774
-      },
-      {
-        "login": "CriesofCarrots",
-        "type": "User",
-        "contributions": 759
-      },
-      {
-        "login": "t-nelson",
-        "type": "User",
-        "contributions": 694
-      },
-      {
-        "login": "dependabot-preview[bot]",
-        "type": "Bot",
-        "contributions": 687
-      },
-      {
-        "login": "rob-solana",
-        "type": "User",
-        "contributions": 658
-      },
-      {
-        "login": "pgarg66",
-        "type": "User",
-        "contributions": 655
-      },
-      {
-        "login": "carllin",
-        "type": "User",
-        "contributions": 552
-      },
-      {
-        "login": "yihau",
-        "type": "User",
-        "contributions": 465
-      },
-      {
-        "login": "apfitzge",
-        "type": "User",
-        "contributions": 433
-      },
-      {
-        "login": "aeyakovenko",
-        "type": "User",
-        "contributions": 429
-      },
-      {
-        "login": "ryoqun",
-        "type": "User",
-        "contributions": 411
-      },
-      {
-        "login": "Lichtso",
-        "type": "User",
-        "contributions": 367
-      },
-      {
-        "login": "HaoranYi",
-        "type": "User",
-        "contributions": 332
-      },
-      {
-        "login": "kevinheavey",
-        "type": "User",
-        "contributions": 300
-      },
-      {
-        "login": "samkim-crypto",
-        "type": "User",
-        "contributions": 285
-      },
-      {
-        "login": "danpaul000",
-        "type": "User",
-        "contributions": 274
-      },
-      {
-        "login": "tao-stones",
-        "type": "User",
-        "contributions": 269
-      },
-      {
-        "login": "joncinque",
-        "type": "User",
-        "contributions": 244
-      },
-      {
-        "login": "dependabot-support",
-        "type": "User",
-        "contributions": 237
-      },
-      {
-        "login": "sagar-solana",
-        "type": "User",
-        "contributions": 224
-      },
-      {
-        "login": "yhchiang-sol",
-        "type": "User",
-        "contributions": 206
-      },
-      {
-        "login": "dmakarov",
-        "type": "User",
-        "contributions": 179
+        "contributions": 43
       }
     ]
   }
