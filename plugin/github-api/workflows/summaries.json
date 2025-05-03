@@ -1,107 +1,107 @@
 [
   {
-    "user": "The-Swarm-Corporation",
-    "repo": "swarms-rs",
-    "runs": 167,
+    "user": "os-checker",
+    "repo": "plugin",
+    "runs": 16,
     "last": {
-      "created_at": "2025-04-30T06:28:41Z",
-      "updated_at": "2025-04-30T06:30:51Z",
-      "duration_sec": 130,
+      "created_at": "2025-04-22T06:39:51Z",
+      "updated_at": "2025-04-22T06:40:33Z",
+      "duration_sec": 42,
       "completed": true,
       "success": true,
       "head_branch": "main",
-      "head_sha": "66936941f9fc952f4e3d9959f013b69313f01e89",
+      "head_sha": "5c1708fd4270038d204c3feb0b3cc9c1d8da72c4",
       "head_commit": {
-        "message": "Merge pull request #15 from M4n5ter/examples\n\nAdd new examples and some swarms agent improvements",
-        "timestamp": "2025-04-30T06:28:38Z"
+        "message": "Merge pull request #2 from os-checker/0.1.4\n\nLIcense: dual licensing through license and license-file fields in Cargo.toml",
+        "timestamp": "2025-04-22T06:39:48Z"
       },
       "workflows": [
         {
           "run": {
-            "name": "Rust",
+            "name": "Check",
             "head_branch": "main",
-            "head_sha": "66936941f9fc952f4e3d9959f013b69313f01e89",
+            "head_sha": "5c1708fd4270038d204c3feb0b3cc9c1d8da72c4",
             "head_commit": {
-              "message": "Merge pull request #15 from M4n5ter/examples\n\nAdd new examples and some swarms agent improvements",
-              "timestamp": "2025-04-30T06:28:38Z"
+              "message": "Merge pull request #2 from os-checker/0.1.4\n\nLIcense: dual licensing through license and license-file fields in Cargo.toml",
+              "timestamp": "2025-04-22T06:39:48Z"
             },
-            "display_title": "Merge pull request #15 from M4n5ter/examples",
-            "html_url": "https://github.com/The-Swarm-Corporation/swarms-rs/actions/runs/14748184806",
+            "display_title": "Merge pull request #2 from os-checker/0.1.4",
+            "html_url": "https://github.com/os-checker/plugin/actions/runs/14588391433",
             "event": "push",
             "status": "completed",
             "conclusion": "success",
             "run_attempt": 1,
-            "run_started_at": "2025-04-30T06:28:41Z",
-            "created_at": "2025-04-30T06:28:41Z",
-            "updated_at": "2025-04-30T06:30:51Z",
-            "duration_sec": 130,
+            "run_started_at": "2025-04-22T06:39:51Z",
+            "created_at": "2025-04-22T06:39:51Z",
+            "updated_at": "2025-04-22T06:40:33Z",
+            "duration_sec": 42,
             "actor": {
-              "login": "kyegomez"
+              "login": "zjp-CN"
             },
             "triggering_actor": {
-              "login": "kyegomez"
+              "login": "zjp-CN"
             },
-            "id": 14748184806,
-            "jobs_url": "https://api.github.com/repos/The-Swarm-Corporation/swarms-rs/actions/runs/14748184806/jobs",
-            "logs_url": "https://api.github.com/repos/The-Swarm-Corporation/swarms-rs/actions/runs/14748184806/logs"
+            "id": 14588391433,
+            "jobs_url": "https://api.github.com/repos/os-checker/plugin/actions/runs/14588391433/jobs",
+            "logs_url": "https://api.github.com/repos/os-checker/plugin/actions/runs/14588391433/logs"
           },
           "jobs": {
             "total_count": 1,
             "jobs": [
               {
-                "name": "build",
-                "workflow_name": "Rust",
-                "html_url": "https://github.com/The-Swarm-Corporation/swarms-rs/actions/runs/14748184806/job/41399446240",
+                "name": "run",
+                "workflow_name": "Check",
+                "html_url": "https://github.com/os-checker/plugin/actions/runs/14588391433/job/40918020584",
                 "status": "completed",
                 "conclusion": "success",
-                "created_at": "2025-04-30T06:28:42Z",
-                "started_at": "2025-04-30T06:28:47Z",
-                "completed_at": "2025-04-30T06:30:50Z",
-                "duration_sec": 123,
+                "created_at": "2025-04-22T06:39:51Z",
+                "started_at": "2025-04-22T06:39:55Z",
+                "completed_at": "2025-04-22T06:40:33Z",
+                "duration_sec": 38,
                 "steps": [
                   {
                     "name": "Set up job",
                     "status": "completed",
                     "conclusion": "success",
                     "number": 1,
-                    "started_at": "2025-04-30T06:28:47Z",
-                    "completed_at": "2025-04-30T06:28:47Z",
-                    "duration_sec": 0
+                    "started_at": "2025-04-22T06:39:55Z",
+                    "completed_at": "2025-04-22T06:39:57Z",
+                    "duration_sec": 2
                   },
                   {
                     "name": "Run actions/checkout@v4",
                     "status": "completed",
                     "conclusion": "success",
                     "number": 2,
-                    "started_at": "2025-04-30T06:28:47Z",
-                    "completed_at": "2025-04-30T06:28:48Z",
+                    "started_at": "2025-04-22T06:39:57Z",
+                    "completed_at": "2025-04-22T06:39:58Z",
                     "duration_sec": 1
                   },
                   {
-                    "name": "Build",
+                    "name": "Clippy",
                     "status": "completed",
                     "conclusion": "success",
                     "number": 3,
-                    "started_at": "2025-04-30T06:28:48Z",
-                    "completed_at": "2025-04-30T06:30:01Z",
-                    "duration_sec": 73
+                    "started_at": "2025-04-22T06:39:58Z",
+                    "completed_at": "2025-04-22T06:40:13Z",
+                    "duration_sec": 15
                   },
                   {
-                    "name": "Run tests",
+                    "name": "Check semver",
                     "status": "completed",
                     "conclusion": "success",
                     "number": 4,
-                    "started_at": "2025-04-30T06:30:02Z",
-                    "completed_at": "2025-04-30T06:30:49Z",
-                    "duration_sec": 47
+                    "started_at": "2025-04-22T06:40:13Z",
+                    "completed_at": "2025-04-22T06:40:31Z",
+                    "duration_sec": 18
                   },
                   {
                     "name": "Post Run actions/checkout@v4",
                     "status": "completed",
                     "conclusion": "success",
                     "number": 8,
-                    "started_at": "2025-04-30T06:30:49Z",
-                    "completed_at": "2025-04-30T06:30:49Z",
+                    "started_at": "2025-04-22T06:40:31Z",
+                    "completed_at": "2025-04-22T06:40:31Z",
                     "duration_sec": 0
                   },
                   {
@@ -109,12 +109,12 @@
                     "status": "completed",
                     "conclusion": "success",
                     "number": 9,
-                    "started_at": "2025-04-30T06:30:49Z",
-                    "completed_at": "2025-04-30T06:30:49Z",
+                    "started_at": "2025-04-22T06:40:31Z",
+                    "completed_at": "2025-04-22T06:40:31Z",
                     "duration_sec": 0
                   }
                 ],
-                "id": 41399446240
+                "id": 40918020584
               }
             ]
           }

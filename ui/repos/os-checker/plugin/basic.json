@@ -1,96 +1,32 @@
 {
   "pkgs": [
     {
+      "pkg": "",
+      "count": 1
+    },
+    {
       "pkg": "All-Pkgs",
-      "count": 84
-    },
-    {
-      "pkg": "swarms-rs",
-      "count": 71
-    },
-    {
-      "pkg": "binance-tools",
-      "count": 5
-    },
-    {
-      "pkg": "binance-swarms-agent",
-      "count": 2
-    },
-    {
-      "pkg": "browser-use",
-      "count": 2
-    },
-    {
-      "pkg": "fetch-mcp",
-      "count": 2
-    },
-    {
-      "pkg": "knowledge-graph-memory-server",
-      "count": 2
-    },
-    {
-      "pkg": "swarms-macro",
-      "count": 0
+      "count": 1
     }
   ],
   "checkers": [
     {
       "checker": "All-Checkers",
-      "count": 84
-    },
-    {
-      "checker": "fmt",
-      "count": 68
-    },
-    {
-      "checker": "audit",
-      "count": 6
-    },
-    {
-      "checker": "lockbud",
-      "count": 6
+      "count": 1
     },
     {
       "checker": "cargo",
       "count": 1
-    },
-    {
-      "checker": "mirai",
-      "count": 1
-    },
-    {
-      "checker": "outdated",
-      "count": 1
-    },
-    {
-      "checker": "semver-checks",
-      "count": 1
-    },
-    {
-      "checker": "clippy",
-      "count": 0
-    },
-    {
-      "checker": "geiger",
-      "count": 0
-    },
-    {
-      "checker": "rapx",
-      "count": 0
-    },
-    {
-      "checker": "rudra",
-      "count": 0
     }
   ],
   "targets": [
     {
       "triple": "All-Targets",
-      "count": 84
+      "count": 1
     },
     {
       "triple": "x86_64-unknown-linux-gnu",
-      "count": 84
+      "count": 1
     }
   ],
   "kinds": {

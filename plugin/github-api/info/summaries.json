@@ -1,25 +1,25 @@
 [
   {
-    "user": "The-Swarm-Corporation",
-    "repo": "swarms-rs",
+    "user": "os-checker",
+    "repo": "plugin",
     "info": {
-      "name": "swarms-rs",
-      "full_name": "The-Swarm-Corporation/swarms-rs",
+      "name": "plugin",
+      "full_name": "os-checker/plugin",
       "owner": {
-        "login": "The-Swarm-Corporation",
+        "login": "os-checker",
         "type": "Organization"
       },
-      "description": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework in Rust",
-      "created_at": "2024-08-29T03:05:39Z",
-      "pushed_at": "2025-04-30T06:28:38Z",
-      "updated_at": "2025-04-30T06:30:46Z",
-      "homepage": "https://swarms.ai",
+      "description": null,
+      "created_at": "2024-11-22T14:57:01Z",
+      "pushed_at": "2025-04-22T06:55:17Z",
+      "updated_at": "2025-04-22T06:39:52Z",
+      "homepage": null,
       "default_branch": "main",
-      "size": 1570,
-      "stargazers_count": 22,
-      "subscribers_count": 3,
-      "forks_count": 6,
-      "network_count": 6,
+      "size": 35,
+      "stargazers_count": 0,
+      "subscribers_count": 0,
+      "forks_count": 1,
+      "network_count": 1,
       "open_issues_count": 0,
       "fork": false,
       "archived": false,
@@ -29,41 +29,19 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "topics": [
-        "agents",
-        "agents-sdk",
-        "agora",
-        "ai",
-        "async",
-        "finance",
-        "llms",
-        "ml",
-        "multi-agent-collaboration",
-        "multi-agent-systems",
-        "multi-process",
-        "multithreading",
-        "python",
-        "rust",
-        "rust-lang",
-        "swarms"
-      ],
+      "topics": [],
       "language": "Rust",
       "license": {
-        "spdx_id": "Apache-2.0"
+        "spdx_id": "GPL-3.0"
       }
     },
-    "active_days": 244,
-    "contributions": 99,
+    "active_days": 150,
+    "contributions": 24,
     "contributors": [
       {
-        "login": "kyegomez",
+        "login": "zjp-CN",
         "type": "User",
-        "contributions": 56
-      },
-      {
-        "login": "M4n5ter",
-        "type": "User",
-        "contributions": 43
+        "contributions": 24
       }
     ]
   }

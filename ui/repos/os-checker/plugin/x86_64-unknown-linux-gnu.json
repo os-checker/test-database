@@ -1,4 +1,8 @@
 {
+  "repo": {
+    "user": "os-checker",
+    "repo": "plugin"
+  },
   "data": [
     {
       "user": "os-checker",
