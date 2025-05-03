@@ -1,5 +1,8 @@
 {
-  "os-checker": [
-    "plugin"
+  "Phala-Network": [
+    "phala-blockchain"
+  ],
+  "informalsystems": [
+    "hermes"
   ]
 }

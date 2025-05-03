@@ -1,0 +1,191 @@
+{
+  "user": "Phala-Network",
+  "repo": "phala-blockchain",
+  "info": {
+    "name": "phala-blockchain",
+    "full_name": "Phala-Network/phala-blockchain",
+    "owner": {
+      "login": "Phala-Network",
+      "type": "Organization"
+    },
+    "description": "Phala Network 1.0 Monorepo",
+    "created_at": "2020-01-08T02:14:13Z",
+    "pushed_at": "2025-04-30T18:51:47Z",
+    "updated_at": "2025-05-01T20:19:16Z",
+    "homepage": "https://phala.network",
+    "default_branch": "master",
+    "size": 109579,
+    "stargazers_count": 350,
+    "subscribers_count": 34,
+    "forks_count": 159,
+    "network_count": 159,
+    "open_issues_count": 109,
+    "fork": false,
+    "archived": false,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false,
+    "topics": [],
+    "language": "Rust",
+    "license": {
+      "spdx_id": "Apache-2.0"
+    }
+  },
+  "active_days": 1939,
+  "contributions": 6158,
+  "contributors": [
+    {
+      "login": "kvinwang",
+      "type": "User",
+      "contributions": 2668
+    },
+    {
+      "login": "h4x3rotab",
+      "type": "User",
+      "contributions": 1027
+    },
+    {
+      "login": "jasl",
+      "type": "User",
+      "contributions": 959
+    },
+    {
+      "login": "Leechael",
+      "type": "User",
+      "contributions": 327
+    },
+    {
+      "login": "shelvenzhou",
+      "type": "User",
+      "contributions": 271
+    },
+    {
+      "login": "tolak",
+      "type": "User",
+      "contributions": 169
+    },
+    {
+      "login": "Soptq",
+      "type": "User",
+      "contributions": 161
+    },
+    {
+      "login": "Index0011",
+      "type": "User",
+      "contributions": 145
+    },
+    {
+      "login": "nanometerzhu",
+      "type": "User",
+      "contributions": 120
+    },
+    {
+      "login": "dependabot[bot]",
+      "type": "Bot",
+      "contributions": 82
+    },
+    {
+      "login": "goldenfiredo",
+      "type": "User",
+      "contributions": 80
+    },
+    {
+      "login": "BlockTink",
+      "type": "User",
+      "contributions": 29
+    },
+    {
+      "login": "GuiGou12358",
+      "type": "User",
+      "contributions": 27
+    },
+    {
+      "login": "mondaylord",
+      "type": "User",
+      "contributions": 17
+    },
+    {
+      "login": "krhougs",
+      "type": "User",
+      "contributions": 17
+    },
+    {
+      "login": "baidang201",
+      "type": "User",
+      "contributions": 15
+    },
+    {
+      "login": "KiChjang",
+      "type": "User",
+      "contributions": 7
+    },
+    {
+      "login": "kureus",
+      "type": "User",
+      "contributions": 5
+    },
+    {
+      "login": "kingsleydon",
+      "type": "User",
+      "contributions": 5
+    },
+    {
+      "login": "pacoyang",
+      "type": "User",
+      "contributions": 4
+    },
+    {
+      "login": "bernardoaraujor",
+      "type": "User",
+      "contributions": 4
+    },
+    {
+      "login": "hauni97",
+      "type": "User",
+      "contributions": 3
+    },
+    {
+      "login": "vabaly",
+      "type": "User",
+      "contributions": 3
+    },
+    {
+      "login": "vinhbhn",
+      "type": "User",
+      "contributions": 3
+    },
+    {
+      "login": "Anonymous-Hentai",
+      "type": "User",
+      "contributions": 2
+    },
+    {
+      "login": "wenfengwang1213",
+      "type": "User",
+      "contributions": 2
+    },
+    {
+      "login": "HashWarlock",
+      "type": "User",
+      "contributions": 2
+    },
+    {
+      "login": "lucasliu2022",
+      "type": "User",
+      "contributions": 2
+    },
+    {
+      "login": "zozyo",
+      "type": "User",
+      "contributions": 1
+    },
+    {
+      "login": "pymongo",
+      "type": "User",
+      "contributions": 1
+    }
+  ]
+}

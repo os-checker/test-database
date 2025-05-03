@@ -1,0 +1,9 @@
+{
+  "user": "Phala-Network",
+  "repo": "phala-blockchain",
+  "timestamp": {
+    "start": 1746243252781,
+    "end": 1746243252781
+  },
+  "err": "\n   0: Cloning into '/tmp/os-checker-plugin-cargo/Phala-Network/phala-blockchain'...\n      Submodule 'standalone/prouter/i2pd' (https://github.com/Phala-Network/i2pd.git) registered for path 'standalone/prouter/i2pd'\n      Submodule 'subxt' (https://github.com/Phala-Network/substrate-subxt.git) registered for path 'subxt'\n      Cloning into '/tmp/os-checker-plugin-cargo/Phala-Network/phala-blockchain/standalone/prouter/i2pd'...\n      Cloning into '/tmp/os-checker-plugin-cargo/Phala-Network/phala-blockchain/subxt'...\n      Error: \n         0: resolution error: failed to find dependency: ark-transcript 0.0.2 (git+https://github.com/w3f/ring-vrf?rev=2019248)\n\n      Location:\n         src/layout/audit.rs:174\n\n        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ SPANTRACE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n         0: os_checker::layout::audit::cargo_audit with lock_file=Ok(\"/tmp/os-checker-plugin-cargo/Phala-Network/phala-blockchain/Cargo.lock\")\n            at src/layout/audit.rs:114\n\n      Backtrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.\n      Run with RUST_BACKTRACE=full to include source snippets.\n   0: \n\nLocation:\n   src/repo/os_checker.rs:27\n\n  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ SPANTRACE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n   0: os_checker_plugin_cargo::cache::cache with key=\"Api { branch: \\\"master\\\", sha: \\\"45b925eb1581de2b42eaa6c22537276dc691077e\\\" }\"\n      at src/cache/mod.rs:60\n   1: os_checker_plugin_cargo::list with user_repo=\"Phala-Network/phala-blockchain\"\n      at src/main.rs:16\n\nBacktrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.\nRun with RUST_BACKTRACE=full to include source snippets."
+}

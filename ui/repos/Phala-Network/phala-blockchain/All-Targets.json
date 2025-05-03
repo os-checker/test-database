@@ -1,0 +1,41 @@
+{
+  "repo": {
+    "user": "Phala-Network",
+    "repo": "phala-blockchain"
+  },
+  "data": [
+    {
+      "user": "Phala-Network",
+      "repo": "phala-blockchain",
+      "pkg": "",
+      "count": 1,
+      "raw_reports": [
+        {
+          "file": "/tmp/check/repo/Phala-Network/phala-blockchain",
+          "features": "",
+          "count": 1,
+          "kinds": {
+            "Cargo": [
+              "\n   0: 在 +nightly 工具链上安装如下 targets [\"wasm32-unknown-unknown\", \"wasm32-wasi\", \"x86_64-unknown-linux-gnu\", \"x86_64-unknown-linux-musl\"] 失败\n      stderr=info: downloading component 'rust-std' for 'wasm32-unknown-unknown'\n      info: installing component 'rust-std' for 'wasm32-unknown-unknown'\n      error: toolchain 'nightly-x86_64-unknown-linux-gnu' does not support target 'wasm32-wasi'; did you mean 'wasm32-wasip1'?\n      note: you can see a list of supported targets with `rustc --print=target-list`\n      note: if you are adding support for a new target to rustc itself, see https://rustc-dev-guide.rust-lang.org/building/new-target.html\n   0: \n\nLocation:\n   src/utils/installation.rs:62\n\n  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ SPANTRACE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n   0: os_checker::run_checker::try_new with user=\"Phala-Network\" repo=\"phala-blockchain\"\n      at src/run_checker/mod.rs:232\n\nBacktrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.\nRun with RUST_BACKTRACE=full to include source snippets."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "kinds_order": [
+    "Cargo",
+    "Clippy(Error)",
+    "Clippy(Warn)",
+    "Semver Violation",
+    "Audit",
+    "Mirai",
+    "Rapx",
+    "Rudra",
+    "Lockbud(Probably)",
+    "Lockbud(Possibly)",
+    "Outdated",
+    "Geiger",
+    "Unformatted"
+  ]
+}
