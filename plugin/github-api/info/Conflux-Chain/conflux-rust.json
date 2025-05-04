@@ -1,0 +1,197 @@
+{
+  "user": "Conflux-Chain",
+  "repo": "conflux-rust",
+  "info": {
+    "name": "conflux-rust",
+    "full_name": "Conflux-Chain/conflux-rust",
+    "owner": {
+      "login": "Conflux-Chain",
+      "type": "Organization"
+    },
+    "description": "The official Rust implementation of Conflux protocol. https://doc.confluxnetwork.org",
+    "created_at": "2019-03-24T10:30:06Z",
+    "pushed_at": "2025-05-04T10:22:55Z",
+    "updated_at": "2025-04-30T05:46:20Z",
+    "homepage": "https://doc.confluxnetwork.org",
+    "default_branch": "master",
+    "size": 149428,
+    "stargazers_count": 670,
+    "subscribers_count": 45,
+    "forks_count": 204,
+    "network_count": 204,
+    "open_issues_count": 86,
+    "fork": false,
+    "archived": false,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": true,
+    "topics": [
+      "blockchain",
+      "conflux",
+      "cryptocurrency",
+      "p2p",
+      "rust"
+    ],
+    "language": "Rust",
+    "license": {
+      "spdx_id": "GPL-3.0"
+    }
+  },
+  "active_days": 2232,
+  "contributions": 5099,
+  "contributors": [
+    {
+      "login": "peilun-conflux",
+      "type": "User",
+      "contributions": 1747
+    },
+    {
+      "login": "ChenxingLi",
+      "type": "User",
+      "contributions": 668
+    },
+    {
+      "login": "Pana",
+      "type": "User",
+      "contributions": 589
+    },
+    {
+      "login": "Thegaram",
+      "type": "User",
+      "contributions": 418
+    },
+    {
+      "login": "fanlong",
+      "type": "User",
+      "contributions": 278
+    },
+    {
+      "login": "yangzhe1990",
+      "type": "User",
+      "contributions": 239
+    },
+    {
+      "login": "sparkmiw",
+      "type": "User",
+      "contributions": 173
+    },
+    {
+      "login": "csdtowards",
+      "type": "User",
+      "contributions": 158
+    },
+    {
+      "login": "boqiu",
+      "type": "User",
+      "contributions": 149
+    },
+    {
+      "login": "zimpha",
+      "type": "User",
+      "contributions": 146
+    },
+    {
+      "login": "darwintree",
+      "type": "User",
+      "contributions": 126
+    },
+    {
+      "login": "iosh",
+      "type": "User",
+      "contributions": 98
+    },
+    {
+      "login": "wangdayong228",
+      "type": "User",
+      "contributions": 70
+    },
+    {
+      "login": "resodo",
+      "type": "User",
+      "contributions": 42
+    },
+    {
+      "login": "linyufly",
+      "type": "User",
+      "contributions": 39
+    },
+    {
+      "login": "yilinhan",
+      "type": "User",
+      "contributions": 33
+    },
+    {
+      "login": "0xfx01",
+      "type": "User",
+      "contributions": 24
+    },
+    {
+      "login": "Conflux-CX",
+      "type": "User",
+      "contributions": 19
+    },
+    {
+      "login": "rongma7",
+      "type": "User",
+      "contributions": 17
+    },
+    {
+      "login": "dongz9",
+      "type": "User",
+      "contributions": 15
+    },
+    {
+      "login": "confluxyangz",
+      "type": "User",
+      "contributions": 15
+    },
+    {
+      "login": "seekstar",
+      "type": "User",
+      "contributions": 8
+    },
+    {
+      "login": "ftiasch",
+      "type": "User",
+      "contributions": 6
+    },
+    {
+      "login": "dependabot-preview[bot]",
+      "type": "Bot",
+      "contributions": 5
+    },
+    {
+      "login": "ksqsf",
+      "type": "User",
+      "contributions": 5
+    },
+    {
+      "login": "royshang",
+      "type": "User",
+      "contributions": 3
+    },
+    {
+      "login": "dependabot[bot]",
+      "type": "Bot",
+      "contributions": 3
+    },
+    {
+      "login": "lostRating",
+      "type": "User",
+      "contributions": 3
+    },
+    {
+      "login": "yqrashawn",
+      "type": "User",
+      "contributions": 2
+    },
+    {
+      "login": "tiaoxizhan",
+      "type": "User",
+      "contributions": 1
+    }
+  ]
+}

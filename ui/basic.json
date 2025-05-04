@@ -2,31 +2,7 @@
   "pkgs": [
     {
       "pkg": "All-Pkgs",
-      "count": 56
-    },
-    {
-      "pkg": "ibc-relayer-types",
-      "count": 25
-    },
-    {
-      "pkg": "ibc-telemetry",
-      "count": 6
-    },
-    {
-      "pkg": "ibc-relayer-rest",
-      "count": 6
-    },
-    {
-      "pkg": "ibc-relayer-cli",
-      "count": 6
-    },
-    {
-      "pkg": "ibc-relayer",
-      "count": 6
-    },
-    {
-      "pkg": "ibc-chain-registry",
-      "count": 6
+      "count": 1
     },
     {
       "pkg": "",
@@ -35,46 +11,22 @@
   ],
   "checkers": [
     {
-      "checker": "All-Checkers",
-      "count": 56
-    },
-    {
-      "checker": "clippy",
-      "count": 23
-    },
-    {
       "checker": "cargo",
-      "count": 19
+      "count": 1
     },
     {
-      "checker": "lockbud",
-      "count": 6
-    },
-    {
-      "checker": "audit",
-      "count": 6
-    },
-    {
-      "checker": "rapx",
-      "count": 2
-    },
-    {
-      "checker": "rudra",
-      "count": 0
-    },
-    {
-      "checker": "fmt",
-      "count": 0
+      "checker": "All-Checkers",
+      "count": 1
     }
   ],
   "targets": [
     {
       "triple": "x86_64-unknown-linux-gnu",
-      "count": 56
+      "count": 1
     },
     {
       "triple": "All-Targets",
-      "count": 56
+      "count": 1
     }
   ],
   "kinds": {

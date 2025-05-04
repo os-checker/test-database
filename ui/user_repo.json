@@ -1,8 +1,5 @@
 {
-  "Phala-Network": [
-    "phala-blockchain"
-  ],
-  "informalsystems": [
-    "hermes"
+  "Conflux-Chain": [
+    "conflux-rust"
   ]
 }
