@@ -2,98 +2,322 @@
   "pkgs": [
     {
       "pkg": "All-Pkgs",
-      "count": 82
+      "count": 238
     },
     {
       "pkg": "txgen",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "schemadb",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "pos-ledger-db",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "geth-tracer",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "conflux",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "client",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfxcore",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-storage",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-statedb",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-rpc-common-impl",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-rpc-cfx-impl",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-rpc-builder",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-rpc",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-executor",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "cfx-execute-helper",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "blockgen",
-      "count": 2
+      "count": 4
     },
     {
       "pkg": "treap-map",
-      "count": 1
+      "count": 3
     },
     {
       "pkg": "subscription-service",
-      "count": 1
+      "count": 3
     },
     {
       "pkg": "storage-interface",
-      "count": 1
-    },
-    {
-      "pkg": "solidity-abi",
-      "count": 1
+      "count": 3
     },
     {
       "pkg": "scratchpad",
-      "count": 1
+      "count": 3
     },
     {
       "pkg": "safety-rules",
-      "count": 1
+      "count": 3
     },
     {
       "pkg": "primitives",
+      "count": 3
+    },
+    {
+      "pkg": "network",
+      "count": 3
+    },
+    {
+      "pkg": "move-core-types",
+      "count": 3
+    },
+    {
+      "pkg": "log-device",
+      "count": 3
+    },
+    {
+      "pkg": "kvdb-rocksdb",
+      "count": 3
+    },
+    {
+      "pkg": "io",
+      "count": 3
+    },
+    {
+      "pkg": "heap-map",
+      "count": 3
+    },
+    {
+      "pkg": "generate-key",
+      "count": 3
+    },
+    {
+      "pkg": "executor-types",
+      "count": 3
+    },
+    {
+      "pkg": "executor",
+      "count": 3
+    },
+    {
+      "pkg": "diem-vault-client",
+      "count": 3
+    },
+    {
+      "pkg": "diem-types",
+      "count": 3
+    },
+    {
+      "pkg": "diem-state-view",
+      "count": 3
+    },
+    {
+      "pkg": "diem-secure-storage",
+      "count": 3
+    },
+    {
+      "pkg": "diem-secure-push-metrics",
+      "count": 3
+    },
+    {
+      "pkg": "diem-secure-net",
+      "count": 3
+    },
+    {
+      "pkg": "diem-network-address-encryption",
+      "count": 3
+    },
+    {
+      "pkg": "diem-metrics",
+      "count": 3
+    },
+    {
+      "pkg": "diem-logger",
+      "count": 3
+    },
+    {
+      "pkg": "diem-jellyfish-merkle",
+      "count": 3
+    },
+    {
+      "pkg": "diem-github-client",
+      "count": 3
+    },
+    {
+      "pkg": "diem-crypto",
+      "count": 3
+    },
+    {
+      "pkg": "diem-config",
+      "count": 3
+    },
+    {
+      "pkg": "db",
+      "count": 3
+    },
+    {
+      "pkg": "crash-handler",
+      "count": 3
+    },
+    {
+      "pkg": "consensus-types",
+      "count": 3
+    },
+    {
+      "pkg": "channel",
+      "count": 3
+    },
+    {
+      "pkg": "cfxstore-cli",
+      "count": 3
+    },
+    {
+      "pkg": "cfxstore",
+      "count": 3
+    },
+    {
+      "pkg": "cfxcore-accounts",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-vm-types",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-vm-interpreter",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-rpc-eth-types",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-rpc-eth-api",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-rpc-cfx-types",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-parity-trace-types",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-packing-pool",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-internal-common",
+      "count": 3
+    },
+    {
+      "pkg": "cfx-db-errors",
+      "count": 3
+    },
+    {
+      "pkg": "cached-pos-ledger-db",
+      "count": 3
+    },
+    {
+      "pkg": "accumulator",
+      "count": 3
+    },
+    {
+      "pkg": "short-hex-str",
+      "count": 2
+    },
+    {
+      "pkg": "serde-utils",
+      "count": 2
+    },
+    {
+      "pkg": "secret-store",
+      "count": 2
+    },
+    {
+      "pkg": "metrics",
+      "count": 2
+    },
+    {
+      "pkg": "diem-time-service",
+      "count": 2
+    },
+    {
+      "pkg": "diem-nibble",
+      "count": 2
+    },
+    {
+      "pkg": "diem-metrics-core",
+      "count": 2
+    },
+    {
+      "pkg": "ctxkey-cli",
+      "count": 2
+    },
+    {
+      "pkg": "cfxkey",
+      "count": 2
+    },
+    {
+      "pkg": "cfx-stratum",
+      "count": 2
+    },
+    {
+      "pkg": "cfx-rpc-utils",
+      "count": 2
+    },
+    {
+      "pkg": "cfx-rpc-primitives",
+      "count": 2
+    },
+    {
+      "pkg": "cfx-rpc-middlewares",
+      "count": 2
+    },
+    {
+      "pkg": "cfx-parameters",
+      "count": 2
+    },
+    {
+      "pkg": "cfx-math",
+      "count": 2
+    },
+    {
+      "pkg": "bounded-executor",
+      "count": 2
+    },
+    {
+      "pkg": "solidity-abi",
       "count": 1
     },
     {
@@ -101,171 +325,11 @@
       "count": 1
     },
     {
-      "pkg": "network",
-      "count": 1
-    },
-    {
-      "pkg": "move-core-types",
-      "count": 1
-    },
-    {
-      "pkg": "log-device",
-      "count": 1
-    },
-    {
-      "pkg": "kvdb-rocksdb",
-      "count": 1
-    },
-    {
-      "pkg": "io",
-      "count": 1
-    },
-    {
       "pkg": "hibitset",
       "count": 1
     },
     {
-      "pkg": "heap-map",
-      "count": 1
-    },
-    {
-      "pkg": "generate-key",
-      "count": 1
-    },
-    {
-      "pkg": "executor-types",
-      "count": 1
-    },
-    {
-      "pkg": "executor",
-      "count": 1
-    },
-    {
-      "pkg": "diem-vault-client",
-      "count": 1
-    },
-    {
-      "pkg": "diem-types",
-      "count": 1
-    },
-    {
-      "pkg": "diem-state-view",
-      "count": 1
-    },
-    {
-      "pkg": "diem-secure-storage",
-      "count": 1
-    },
-    {
-      "pkg": "diem-secure-push-metrics",
-      "count": 1
-    },
-    {
-      "pkg": "diem-secure-net",
-      "count": 1
-    },
-    {
-      "pkg": "diem-network-address-encryption",
-      "count": 1
-    },
-    {
-      "pkg": "diem-metrics",
-      "count": 1
-    },
-    {
-      "pkg": "diem-logger",
-      "count": 1
-    },
-    {
-      "pkg": "diem-jellyfish-merkle",
-      "count": 1
-    },
-    {
-      "pkg": "diem-github-client",
-      "count": 1
-    },
-    {
-      "pkg": "diem-crypto",
-      "count": 1
-    },
-    {
-      "pkg": "diem-config",
-      "count": 1
-    },
-    {
-      "pkg": "db",
-      "count": 1
-    },
-    {
       "pkg": "dag",
-      "count": 1
-    },
-    {
-      "pkg": "crash-handler",
-      "count": 1
-    },
-    {
-      "pkg": "consensus-types",
-      "count": 1
-    },
-    {
-      "pkg": "channel",
-      "count": 1
-    },
-    {
-      "pkg": "cfxstore-cli",
-      "count": 1
-    },
-    {
-      "pkg": "cfxstore",
-      "count": 1
-    },
-    {
-      "pkg": "cfxcore-accounts",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-vm-types",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-vm-interpreter",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-rpc-eth-types",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-rpc-eth-api",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-rpc-cfx-types",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-parity-trace-types",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-packing-pool",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-internal-common",
-      "count": 1
-    },
-    {
-      "pkg": "cfx-db-errors",
-      "count": 1
-    },
-    {
-      "pkg": "cached-pos-ledger-db",
-      "count": 1
-    },
-    {
-      "pkg": "accumulator",
       "count": 1
     },
     {
@@ -277,19 +341,7 @@
       "count": 0
     },
     {
-      "pkg": "short-hex-str",
-      "count": 0
-    },
-    {
       "pkg": "sha3-macro",
-      "count": 0
-    },
-    {
-      "pkg": "serde-utils",
-      "count": 0
-    },
-    {
-      "pkg": "secret-store",
       "count": 0
     },
     {
@@ -313,10 +365,6 @@
       "count": 0
     },
     {
-      "pkg": "metrics",
-      "count": 0
-    },
-    {
       "pkg": "memory-cache",
       "count": 0
     },
@@ -337,19 +385,7 @@
       "count": 0
     },
     {
-      "pkg": "diem-time-service",
-      "count": 0
-    },
-    {
       "pkg": "diem-temppath",
-      "count": 0
-    },
-    {
-      "pkg": "diem-nibble",
-      "count": 0
-    },
-    {
-      "pkg": "diem-metrics-core",
       "count": 0
     },
     {
@@ -373,14 +409,6 @@
       "count": 0
     },
     {
-      "pkg": "ctxkey-cli",
-      "count": 0
-    },
-    {
-      "pkg": "cfxkey",
-      "count": 0
-    },
-    {
       "pkg": "cfx-vm-tracer-derive",
       "count": 0
     },
@@ -397,64 +425,40 @@
       "count": 0
     },
     {
-      "pkg": "cfx-stratum",
-      "count": 0
-    },
-    {
-      "pkg": "cfx-rpc-utils",
-      "count": 0
-    },
-    {
-      "pkg": "cfx-rpc-primitives",
-      "count": 0
-    },
-    {
-      "pkg": "cfx-rpc-middlewares",
-      "count": 0
-    },
-    {
-      "pkg": "cfx-parameters",
-      "count": 0
-    },
-    {
-      "pkg": "cfx-math",
-      "count": 0
-    },
-    {
       "pkg": "cfx-bytes",
       "count": 0
     },
     {
       "pkg": "cfx-addr",
       "count": 0
-    },
-    {
-      "pkg": "bounded-executor",
-      "count": 0
     }
   ],
   "checkers": [
     {
       "checker": "All-Checkers",
-      "count": 82
+      "count": 238
+    },
+    {
+      "checker": "cargo",
+      "count": 101
+    },
+    {
+      "checker": "audit",
+      "count": 78
     },
     {
       "checker": "rapx",
       "count": 59
-    },
-    {
-      "checker": "cargo",
-      "count": 23
     }
   ],
   "targets": [
     {
       "triple": "x86_64-unknown-linux-gnu",
-      "count": 82
+      "count": 238
     },
     {
       "triple": "All-Targets",
-      "count": 82
+      "count": 238
     }
   ],
   "kinds": {
