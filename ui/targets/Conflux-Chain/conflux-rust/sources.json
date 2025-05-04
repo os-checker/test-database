@@ -1,1 +1,866 @@
-[]
+[
+  {
+    "pkg": "accumulator",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "blockgen",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "bounded-executor",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cached-pos-ledger-db",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-addr",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-bytes",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-db-errors",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-execute-helper",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-executor",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-internal-common",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-math",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-packing-pool",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-parameters",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-parity-trace-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-builder",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-cfx-impl",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-cfx-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-common-impl",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-eth-api",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-eth-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-middlewares",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-primitives",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-rpc-utils",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-statedb",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-storage",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-stratum",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-tasks",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-util-macros",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-vm-interpreter",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-vm-tracer-derive",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfx-vm-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfxcore",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfxcore-accounts",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfxkey",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfxstore",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "cfxstore-cli",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "channel",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "client",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "conflux",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "consensus-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "crash-handler",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "ctxkey-cli",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "dag",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "db",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "delegate",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-config",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-crypto",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-crypto-derive",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-github-client",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-global-constants",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-infallible",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-jellyfish-merkle",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-log-derive",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-logger",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-metrics",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-metrics-core",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-network-address-encryption",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-nibble",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-proptest-helpers",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": false,
+    "specified": false
+  },
+  {
+    "pkg": "diem-secure-net",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-secure-push-metrics",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-secure-storage",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-state-view",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-temppath",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-time-service",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "diem-vault-client",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "executor",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "executor-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "fallible",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "generate-key",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "geth-tracer",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "heap-map",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "hibitset",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "io",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "kvdb-rocksdb",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "link-cut-tree",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "log-device",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "malloc_size_of",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "malloc_size_of_derive",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "memory-cache",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "metrics",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "move-core-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "network",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "num-variants",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "parity-version",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "pos-ledger-db",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "pow-types",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "primitives",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "priority-send-queue",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "proxy",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "random-crash",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "safety-rules",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "schemadb",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "scratchpad",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "secret-store",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "serde-utils",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "sha3-macro",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "short-hex-str",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "solidity-abi",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "solidity-abi-derive",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "storage-interface",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "subscription-service",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "throttling",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "treap-map",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "txgen",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "SpecifiedInOsCheckerConfig",
+    "path": "",
+    "used": true,
+    "specified": false
+  }
+]

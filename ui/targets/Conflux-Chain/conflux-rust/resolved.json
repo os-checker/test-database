@@ -1,1 +1,965 @@
-[]
+[
+  {
+    "pkg": "accumulator",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 83156
+  },
+  {
+    "pkg": "blockgen",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 192813
+  },
+  {
+    "pkg": "bounded-executor",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 8029
+  },
+  {
+    "pkg": "cached-pos-ledger-db",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 74077
+  },
+  {
+    "pkg": "cfx-addr",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 12251
+  },
+  {
+    "pkg": "cfx-bytes",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 741
+  },
+  {
+    "pkg": "cfx-db-errors",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 30350
+  },
+  {
+    "pkg": "cfx-execute-helper",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 202757
+  },
+  {
+    "pkg": "cfx-executor",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 197717
+  },
+  {
+    "pkg": "cfx-internal-common",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 31761
+  },
+  {
+    "pkg": "cfx-math",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 19408
+  },
+  {
+    "pkg": "cfx-packing-pool",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 22643
+  },
+  {
+    "pkg": "cfx-parameters",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 20867
+  },
+  {
+    "pkg": "cfx-parity-trace-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 36463
+  },
+  {
+    "pkg": "cfx-rpc",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 190297
+  },
+  {
+    "pkg": "cfx-rpc-builder",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 193815
+  },
+  {
+    "pkg": "cfx-rpc-cfx-impl",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 188685
+  },
+  {
+    "pkg": "cfx-rpc-cfx-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 109007
+  },
+  {
+    "pkg": "cfx-rpc-common-impl",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 203355
+  },
+  {
+    "pkg": "cfx-rpc-eth-api",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 132047
+  },
+  {
+    "pkg": "cfx-rpc-eth-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 118366
+  },
+  {
+    "pkg": "cfx-rpc-middlewares",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 52599
+  },
+  {
+    "pkg": "cfx-rpc-primitives",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 14580
+  },
+  {
+    "pkg": "cfx-rpc-utils",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 29978
+  },
+  {
+    "pkg": "cfx-statedb",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 126278
+  },
+  {
+    "pkg": "cfx-storage",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 125969
+  },
+  {
+    "pkg": "cfx-stratum",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 15765
+  },
+  {
+    "pkg": "cfx-tasks",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 6973
+  },
+  {
+    "pkg": "cfx-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 11132
+  },
+  {
+    "pkg": "cfx-util-macros",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 665
+  },
+  {
+    "pkg": "cfx-vm-interpreter",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 39671
+  },
+  {
+    "pkg": "cfx-vm-tracer-derive",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2176
+  },
+  {
+    "pkg": "cfx-vm-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 33088
+  },
+  {
+    "pkg": "cfxcore",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 188287
+  },
+  {
+    "pkg": "cfxcore-accounts",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 33359
+  },
+  {
+    "pkg": "cfxkey",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 18706
+  },
+  {
+    "pkg": "cfxstore",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 31158
+  },
+  {
+    "pkg": "cfxstore-cli",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 36505
+  },
+  {
+    "pkg": "channel",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 19246
+  },
+  {
+    "pkg": "client",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 201709
+  },
+  {
+    "pkg": "conflux",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 228426
+  },
+  {
+    "pkg": "consensus-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 75393
+  },
+  {
+    "pkg": "crash-handler",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 14215
+  },
+  {
+    "pkg": "ctxkey-cli",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 21148
+  },
+  {
+    "pkg": "dag",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 15276
+  },
+  {
+    "pkg": "db",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 103098
+  },
+  {
+    "pkg": "delegate",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2701
+  },
+  {
+    "pkg": "diem-config",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 84114
+  },
+  {
+    "pkg": "diem-crypto",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 33211
+  },
+  {
+    "pkg": "diem-crypto-derive",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2350
+  },
+  {
+    "pkg": "diem-github-client",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 14086
+  },
+  {
+    "pkg": "diem-global-constants",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 818
+  },
+  {
+    "pkg": "diem-infallible",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 777
+  },
+  {
+    "pkg": "diem-jellyfish-merkle",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 69414
+  },
+  {
+    "pkg": "diem-log-derive",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2458
+  },
+  {
+    "pkg": "diem-logger",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 13723
+  },
+  {
+    "pkg": "diem-metrics",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 18644
+  },
+  {
+    "pkg": "diem-metrics-core",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 4641
+  },
+  {
+    "pkg": "diem-network-address-encryption",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 75089
+  },
+  {
+    "pkg": "diem-nibble",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 6401
+  },
+  {
+    "pkg": "diem-secure-net",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 21068
+  },
+  {
+    "pkg": "diem-secure-push-metrics",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 20406
+  },
+  {
+    "pkg": "diem-secure-storage",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 75340
+  },
+  {
+    "pkg": "diem-state-view",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 62204
+  },
+  {
+    "pkg": "diem-temppath",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2384
+  },
+  {
+    "pkg": "diem-time-service",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 5003
+  },
+  {
+    "pkg": "diem-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 62821
+  },
+  {
+    "pkg": "diem-vault-client",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 72399
+  },
+  {
+    "pkg": "executor",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 79793
+  },
+  {
+    "pkg": "executor-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 69515
+  },
+  {
+    "pkg": "fallible",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 3865
+  },
+  {
+    "pkg": "generate-key",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 33163
+  },
+  {
+    "pkg": "geth-tracer",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 201891
+  },
+  {
+    "pkg": "heap-map",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 15084
+  },
+  {
+    "pkg": "hibitset",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 15208
+  },
+  {
+    "pkg": "io",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 26001
+  },
+  {
+    "pkg": "kvdb-rocksdb",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 102979
+  },
+  {
+    "pkg": "link-cut-tree",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 13451
+  },
+  {
+    "pkg": "log-device",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 102924
+  },
+  {
+    "pkg": "malloc_size_of",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 13124
+  },
+  {
+    "pkg": "malloc_size_of_derive",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 3091
+  },
+  {
+    "pkg": "memory-cache",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 13010
+  },
+  {
+    "pkg": "metrics",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24453
+  },
+  {
+    "pkg": "move-core-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 13060
+  },
+  {
+    "pkg": "network",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 89969
+  },
+  {
+    "pkg": "num-variants",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2303
+  },
+  {
+    "pkg": "parity-version",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 21772
+  },
+  {
+    "pkg": "pos-ledger-db",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 153636
+  },
+  {
+    "pkg": "pow-types",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 13104
+  },
+  {
+    "pkg": "primitives",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 29275
+  },
+  {
+    "pkg": "priority-send-queue",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 904
+  },
+  {
+    "pkg": "proxy",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 1002
+  },
+  {
+    "pkg": "random-crash",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2456
+  },
+  {
+    "pkg": "safety-rules",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 86002
+  },
+  {
+    "pkg": "schemadb",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 106294
+  },
+  {
+    "pkg": "scratchpad",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 62758
+  },
+  {
+    "pkg": "secret-store",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 18702
+  },
+  {
+    "pkg": "serde-utils",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 13820
+  },
+  {
+    "pkg": "sha3-macro",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2325
+  },
+  {
+    "pkg": "short-hex-str",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 4083
+  },
+  {
+    "pkg": "solidity-abi",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 15186
+  },
+  {
+    "pkg": "solidity-abi-derive",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2988
+  },
+  {
+    "pkg": "storage-interface",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 68433
+  },
+  {
+    "pkg": "subscription-service",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 67988
+  },
+  {
+    "pkg": "throttling",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 15511
+  },
+  {
+    "pkg": "treap-map",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 31179
+  },
+  {
+    "pkg": "txgen",
+    "toolchain": "1.77.2",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 191788
+  }
+]
