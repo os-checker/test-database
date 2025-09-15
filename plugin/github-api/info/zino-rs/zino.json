@@ -1,0 +1,92 @@
+{
+  "user": "zino-rs",
+  "repo": "zino",
+  "info": {
+    "name": "zino",
+    "full_name": "zino-rs/zino",
+    "owner": {
+      "login": "zino-rs",
+      "type": "Organization"
+    },
+    "description": "Next-generation framework for composable applications in Rust.",
+    "created_at": "2022-12-29T03:09:41Z",
+    "pushed_at": "2025-09-11T04:37:40Z",
+    "updated_at": "2025-09-14T11:17:44Z",
+    "homepage": "https://deepwiki.com/zino-rs/zino",
+    "default_branch": "main",
+    "size": 7636,
+    "stargazers_count": 1011,
+    "subscribers_count": 18,
+    "forks_count": 78,
+    "network_count": 78,
+    "open_issues_count": 10,
+    "fork": false,
+    "archived": false,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": true,
+    "topics": [
+      "asynchronous",
+      "http",
+      "orm",
+      "rust",
+      "web"
+    ],
+    "language": "Rust",
+    "license": {
+      "spdx_id": "MIT"
+    }
+  },
+  "active_days": 987,
+  "contributions": 704,
+  "contributors": [
+    {
+      "login": "photino",
+      "type": "User",
+      "contributions": 642
+    },
+    {
+      "login": "miaomiaowu0428",
+      "type": "User",
+      "contributions": 52
+    },
+    {
+      "login": "andeya",
+      "type": "User",
+      "contributions": 3
+    },
+    {
+      "login": "M4n5ter",
+      "type": "User",
+      "contributions": 2
+    },
+    {
+      "login": "aaravlu",
+      "type": "User",
+      "contributions": 1
+    },
+    {
+      "login": "jlandahl",
+      "type": "User",
+      "contributions": 1
+    },
+    {
+      "login": "lazhenyi",
+      "type": "User",
+      "contributions": 1
+    },
+    {
+      "login": "RaphaelNY",
+      "type": "User",
+      "contributions": 1
+    },
+    {
+      "login": "jinmao88",
+      "type": "User",
+      "contributions": 1
+    }
+  ]
+}

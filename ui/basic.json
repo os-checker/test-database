@@ -2,31 +2,199 @@
   "pkgs": [
     {
       "pkg": "All-Pkgs",
-      "count": 1
+      "count": 220
     },
     {
-      "pkg": "",
-      "count": 1
+      "pkg": "zino-model",
+      "count": 10
+    },
+    {
+      "pkg": "zino-http",
+      "count": 10
+    },
+    {
+      "pkg": "zino-dioxus",
+      "count": 10
+    },
+    {
+      "pkg": "zino-orm",
+      "count": 9
+    },
+    {
+      "pkg": "zino-openapi",
+      "count": 9
+    },
+    {
+      "pkg": "zino-ntex",
+      "count": 9
+    },
+    {
+      "pkg": "zino-extra",
+      "count": 9
+    },
+    {
+      "pkg": "zino-core",
+      "count": 9
+    },
+    {
+      "pkg": "zino-connector",
+      "count": 9
+    },
+    {
+      "pkg": "zino-actix",
+      "count": 9
+    },
+    {
+      "pkg": "dioxus-desktop",
+      "count": 9
+    },
+    {
+      "pkg": "zino-storage",
+      "count": 8
+    },
+    {
+      "pkg": "zino-chatbot",
+      "count": 8
+    },
+    {
+      "pkg": "zino-channel",
+      "count": 8
+    },
+    {
+      "pkg": "zino-axum",
+      "count": 8
+    },
+    {
+      "pkg": "zino-auth",
+      "count": 8
+    },
+    {
+      "pkg": "zino-amis",
+      "count": 8
+    },
+    {
+      "pkg": "zino",
+      "count": 8
+    },
+    {
+      "pkg": "ntex-app",
+      "count": 8
+    },
+    {
+      "pkg": "axum-app",
+      "count": 8
+    },
+    {
+      "pkg": "actix-app",
+      "count": 8
+    },
+    {
+      "pkg": "minimal-app",
+      "count": 6
+    },
+    {
+      "pkg": "amis-app",
+      "count": 6
+    },
+    {
+      "pkg": "zino-derive",
+      "count": 5
+    },
+    {
+      "pkg": "zino-server",
+      "count": 3
+    },
+    {
+      "pkg": "zino-salvo",
+      "count": 3
+    },
+    {
+      "pkg": "zino-rpc",
+      "count": 3
+    },
+    {
+      "pkg": "zino-router",
+      "count": 3
+    },
+    {
+      "pkg": "zino-middleware",
+      "count": 3
+    },
+    {
+      "pkg": "zino-chart",
+      "count": 3
+    },
+    {
+      "pkg": "zino-ai",
+      "count": 3
     }
   ],
   "checkers": [
     {
+      "checker": "All-Checkers",
+      "count": 220
+    },
+    {
       "checker": "cargo",
+      "count": 94
+    },
+    {
+      "checker": "mirai",
+      "count": 26
+    },
+    {
+      "checker": "semver-checks",
+      "count": 24
+    },
+    {
+      "checker": "lockbud",
+      "count": 24
+    },
+    {
+      "checker": "audit",
+      "count": 24
+    },
+    {
+      "checker": "geiger",
+      "count": 23
+    },
+    {
+      "checker": "udeps",
+      "count": 4
+    },
+    {
+      "checker": "outdated",
       "count": 1
     },
     {
-      "checker": "All-Checkers",
-      "count": 1
+      "checker": "rudra",
+      "count": 0
+    },
+    {
+      "checker": "rapx",
+      "count": 0
+    },
+    {
+      "checker": "fmt",
+      "count": 0
+    },
+    {
+      "checker": "clippy",
+      "count": 0
+    },
+    {
+      "checker": "atomvchecker",
+      "count": 0
     }
   ],
   "targets": [
     {
       "triple": "x86_64-unknown-linux-gnu",
-      "count": 1
+      "count": 220
     },
     {
       "triple": "All-Targets",
-      "count": 1
+      "count": 220
     }
   ],
   "kinds": {

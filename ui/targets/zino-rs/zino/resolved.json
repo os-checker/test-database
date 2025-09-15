@@ -1,0 +1,3224 @@
+[
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 79630
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 1446
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 2,
+    "ms": 128030
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 136708
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 54
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 221
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 229
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 875
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 232468
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 136
+  },
+  {
+    "pkg": "actix-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 80108
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 9486
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 983
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 55805
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 22639
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 98
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 660
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 206738
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 131
+  },
+  {
+    "pkg": "amis-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 10106
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 17921
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 1021
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 2,
+    "ms": 50197
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 49895
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 665
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 227200
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 135
+  },
+  {
+    "pkg": "axum-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 17803
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 17348
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 1004
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 18927
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 21794
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 114
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 93
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 657
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 45000
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 133
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 17480
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 12020
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 886
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 43766
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 27958
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 23
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 94
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 669
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 194228
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 130
+  },
+  {
+    "pkg": "minimal-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 11685
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 18531
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 955
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 2,
+    "ms": 54436
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 48535
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 679
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 239890
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 135
+  },
+  {
+    "pkg": "ntex-app",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 18014
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 27804
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 24610
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 840
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 30986
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 48451
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 98
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9964
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 107056
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 142
+  },
+  {
+    "pkg": "zino",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 27609
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 15894
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 46677
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 835
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 37579
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 31616
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 114
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 99
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9124
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 126614
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 165
+  },
+  {
+    "pkg": "zino-actix",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 15994
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 364
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 992
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 844
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 291
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 23
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 99
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9100
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 96240
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 135
+  },
+  {
+    "pkg": "zino-ai",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 655
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 5188
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 27820
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 919
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 7444
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 12523
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 98
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9853
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 105277
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 141
+  },
+  {
+    "pkg": "zino-amis",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 5467
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 2391
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 39268
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 864
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 32986
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 4477
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 98
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9369
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 110235
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 151
+  },
+  {
+    "pkg": "zino-auth",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2590
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 8935
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 44332
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 958
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 23821
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 19195
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 97
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9729
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 119978
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 187
+  },
+  {
+    "pkg": "zino-axum",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 8991
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 781
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 23226
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 902
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 1180
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 516
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 101
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9528
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 112068
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 140
+  },
+  {
+    "pkg": "zino-channel",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 1056
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 375
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 948
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 904
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 298
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 25
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 99
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9302
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 89320
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 134
+  },
+  {
+    "pkg": "zino-chart",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 659
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 18962
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 40215
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 1204
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 80079
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 33753
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 98
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9554
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 117664
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 136
+  },
+  {
+    "pkg": "zino-chatbot",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 17734
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 3044
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 122269
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 1034
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 84765
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 6858
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 98
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9632
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 114233
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 165
+  },
+  {
+    "pkg": "zino-connector",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 3212
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 1727
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 55755
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 997
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 840
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 304
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 25
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 118
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 98
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9054
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 109410
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 231
+  },
+  {
+    "pkg": "zino-core",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 907
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 20003
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 855
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 502
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 32011
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 25
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 99
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9159
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 114002
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 158
+  },
+  {
+    "pkg": "zino-derive",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 17168
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 54731
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 21875
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 960
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 159810
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 91532
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 96
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9565
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 151548
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 157
+  },
+  {
+    "pkg": "zino-dioxus",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 53144
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 408
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 23135
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 1096
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 916
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 349
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 96
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9577
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 113199
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 138
+  },
+  {
+    "pkg": "zino-extra",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 971
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 3390
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 41655
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 906
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 55658
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 6630
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 114
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 96
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 1,
+    "ms": 9056
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 112412
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 160
+  },
+  {
+    "pkg": "zino-http",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 3596
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 355
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 984
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 942
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 273
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 94
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9234
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 91352
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 134
+  },
+  {
+    "pkg": "zino-middleware",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 654
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 37102
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 58329
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 793
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 2,
+    "ms": 72945
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 26799
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9388
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 133416
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 154
+  },
+  {
+    "pkg": "zino-model",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 35346
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 9749
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 48480
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 964
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 27741
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 20797
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9777
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 132194
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 171
+  },
+  {
+    "pkg": "zino-ntex",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 9960
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 1746
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 28460
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 1034
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 25489
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 3509
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9758
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 117290
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 155
+  },
+  {
+    "pkg": "zino-openapi",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 1892
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 5626
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 36966
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 850
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 25341
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 8298
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9570
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 115898
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 238
+  },
+  {
+    "pkg": "zino-orm",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 5091
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 358
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 995
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 874
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 273
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 94
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9431
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 91081
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 136
+  },
+  {
+    "pkg": "zino-router",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 662
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 361
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 971
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 853
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 273
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 115
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 97
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9410
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 82369
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 132
+  },
+  {
+    "pkg": "zino-rpc",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 648
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 353
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 958
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 855
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 276
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 23
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 116
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 97
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9277
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 84465
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 133
+  },
+  {
+    "pkg": "zino-salvo",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 659
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 355
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 982
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 856
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 270
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 117
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 9955
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 0,
+    "ms": 81615
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 134
+  },
+  {
+    "pkg": "zino-server",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 647
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "clippy",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo clippy --target x86_64-unknown-linux-gnu  --no-deps",
+    "count": 0,
+    "ms": 2394
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "semver-checks",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu semver-checks --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 80398
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "audit",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo audit",
+    "count": 1,
+    "ms": 907
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "mirai",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-01-10 mirai --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 23146
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "lockbud",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2025-02-01 lockbud -k all -- --target x86_64-unknown-linux-gnu ",
+    "count": 1,
+    "ms": 5268
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "atomvchecker",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2023-03-09 atomvchecker -k atomicity_violation -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 24
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rapx",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2024-10-12 rapx -F -M -- --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 118
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "rudra",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-2021-10-21 rudra --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 95
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "outdated",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu outdated -R --exit-code=2",
+    "count": 0,
+    "ms": 10368
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "geiger",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu geiger --output-format Ascii",
+    "count": 1,
+    "ms": 103525
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "fmt",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu fmt",
+    "count": 0,
+    "ms": 153
+  },
+  {
+    "pkg": "zino-storage",
+    "toolchain": "nightly-2025-09-14",
+    "checker": "udeps",
+    "target": "x86_64-unknown-linux-gnu",
+    "cmd": "cargo +nightly-x86_64-unknown-linux-gnu udeps --target x86_64-unknown-linux-gnu ",
+    "count": 0,
+    "ms": 2636
+  }
+]

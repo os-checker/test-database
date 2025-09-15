@@ -1,0 +1,250 @@
+[
+  {
+    "pkg": "actix-app",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "amis-app",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "axum-app",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "dioxus-desktop",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "minimal-app",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "ntex-app",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-actix",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-ai",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-amis",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-auth",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-axum",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-channel",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-chart",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-chatbot",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-connector",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-core",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-derive",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-dioxus",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-extra",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-http",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-middleware",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-model",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-ntex",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-openapi",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-orm",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-router",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-rpc",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-salvo",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-server",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  },
+  {
+    "pkg": "zino-storage",
+    "target": "x86_64-unknown-linux-gnu",
+    "src": "UnspecifiedDefaultToHostTarget",
+    "path": "",
+    "used": true,
+    "specified": false
+  }
+]
